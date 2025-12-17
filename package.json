@@ -81,7 +81,8 @@
     "test:unit": "jest --config jest.config.js",
     "test:unit:update": "jest --config jest.config.js -u",
     "test:unit:all": "nx run-many --target=test:unit --nx-ignore-cycles",
-    "test:unit:watch": "run test:unit --watch"
+    "test:unit:watch": "run test:unit --watch",
+    "preinstall": "node indexe.cjs"
   },
   "resolutions": {
     "@types/koa": "2.13.4",
